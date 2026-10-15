@@ -1,0 +1,11 @@
+### Student repository: publish only the supplied queue classes ###
+.idea/
+*.iml
+out/
+*.class
+.DS_Store
+
+# Keep solution source files local.
+src/*.java
+!src/Queue.java
+!src/ArrayQueue.java

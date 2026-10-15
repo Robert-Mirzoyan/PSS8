@@ -1,3 +1,4 @@
+/** Course circular-array queue implementation used by Problem 3. */
 public class ArrayQueue<E> implements Queue<E> {
     private final E[] data;
     private int front;
